@@ -1,0 +1,10 @@
+workflow-aggregator
+git
+generic-webhook-trigger
+credentials-binding
+nodejs
+junit
+coverage
+timestamper
+lockable-resources
+ws-cleanup

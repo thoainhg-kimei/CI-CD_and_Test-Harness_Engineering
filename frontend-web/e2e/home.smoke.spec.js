@@ -7,6 +7,7 @@ test('homepage smoke test', async ({ page }) => {
 
 test('login page smoke test', async ({ page }) => {
   await page.goto('/login');
-  await expect(page.locator('input[type="email"]')).toBeVisible();
-  await expect(page.locator('input[type="password"]')).toBeVisible();
+  await expect(page.locator('form')).toBeVisible();
+  await expect(page.locator('form input')).toHaveCount(2);
+  await expect(page.getByRole('button', { name: 'Sign In' })).toBeVisible();
 });

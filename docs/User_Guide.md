@@ -1,5 +1,9 @@
 # CI/CD & Test Harness User Guide
 
+> The current Jenkins replacement setup, webhook, AI triage, and Qodo instructions are in
+> [`Jenkins_Migration_Guide.md`](./Jenkins_Migration_Guide.md). That guide supersedes the
+> older local trial commands in section 3. The Jenkins pipeline does not use Trunk.io.
+
 ## 1. Prerequisites
 - Node.js 20
 - Docker Desktop (for Jenkins)
